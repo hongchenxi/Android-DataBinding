@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <Button
+            android:onClick="startActivity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="单向数据绑定"
+            />
+
+        <Button
+            android:onClick="startActivity3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BaseObservable"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:onClick="startActivity4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ObservableField"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:onClick="startActivity5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ObservableCollection"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:onClick="startActivity6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="双向数据绑定"
+            android:textAllCaps="false"
+            />
+
+        <Button
+            android:onClick="startActivity7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="事件绑定"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
