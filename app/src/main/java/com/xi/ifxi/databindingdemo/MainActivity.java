@@ -41,4 +41,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(Main7Activity.class);
     }
 
+    public void startActivity8(View v) {
+        startActivity(Main8Activity.class);
+    }
+
+    public void startActivity9(View v) {
+        startActivity(Main9Activity.class);
+    }
+
 }

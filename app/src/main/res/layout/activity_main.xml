@@ -55,7 +55,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="事件绑定"
-            android:textAllCaps="false"
+            />
+
+        <Button
+            android:onClick="startActivity8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用类方法"
+            />
+
+        <Button
+            android:onClick="startActivity9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="运算符"
             />
 
     </LinearLayout>
